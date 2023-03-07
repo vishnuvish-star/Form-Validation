@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/Form favicon.png"
+      type="image/x-icon"
+    />
+    <title>Form Validation</title>
+    <!-- NORMALISE CSS FILE LINKING -->
+    <link rel="stylesheet" href="./styles/normalise.css" />
+    <!-- CUSTOMIZE CSS FILE LINK -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="form-card">
+      <form action="" class="validate-form" id="validate-form">
+        <div class="title-form">
+          <h2 class="title">Form Validation</h2>
+        </div>
+        <div class="input-box" id="input-box">
+          <label for="username" class="label-txt">Enter Your Name</label>
+          <input type="text" id="username" class="inputs success-txt" />
+          <small class="error-txt">Invalid Username!</small>
+        </div>
+        <div class="input-box">
+          <label for="email" class="label-txt">Enter Your Email</label>
+          <input type="text" id="email" class="inputs success-txt" />
+          <small class="error-txt">Invalid Email!</small>
+        </div>
+        <div class="input-box">
+          <label for="password" class="label-txt">Create Password</label>
+          <input type="text" id="password" class="inputs success-txt" />
+          <small class="error-txt">Invalid Password!</small>
+        </div>
+        <div class="input-box">
+          <label for="re-password" class="label-txt">Confirm Password</label>
+          <input type="text" id="re-password" class="inputs success-txt" />
+          <small class="error-txt">Password didn't match!</small>
+        </div>
+        <div class="input-box">
+          <input type="submit" value="Submit" class="inputs" id="btn" />
+        </div>
+      </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
